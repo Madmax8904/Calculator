@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./src/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="calculator" class="wrapper">
+
+        <input type="text" id="display" placeholder="0" readonly>
+        <button class="clearButton" onclick="clearDisplay()">c</button>
+        <button class="opButton" onclick="appendToDisplay ('(')">(</button>
+        <button class="opButton" onclick="appendToDisplay (')')">)</button>
+        <button class="opButton" onclick="appendToDisplay ('%')">%</button>
+        <button class="numButton" onclick="appendToDisplay ('1')">1</button>
+        <button class="numButton" onclick="appendToDisplay ('2')">2</button>
+        <button class="numButton" onclick="appendToDisplay ('3')">3</button>
+        <button class="opButton" onclick="appendToDisplay ('+')">+</button>
+        <button class="numButton" onclick="appendToDisplay ('4')">4</button>
+        <button class="numButton" onclick="appendToDisplay ('5')">5</button>
+        <button class="numButton" onclick="appendToDisplay ('6')">6</button>
+        <button class="opButton" onclick="appendToDisplay ('-')">-</button>
+        <button class="numButton" onclick="appendToDisplay ('7')">7</button>
+        <button class="numButton" onclick="appendToDisplay ('8')">8</button>
+        <button class="numButton" onclick="appendToDisplay ('9')">9</button>
+        <button class="eqButton" onclick="appendToDisplay ('/')">/</button>
+        <button class="numButton" onclick="appendToDisplay ('0')">0</button>
+        <button class="opButton" onclick="appendToDisplay ('.')">.</button>
+        <button class="opButton" onclick="calculate()">=</button>
+        <button class="opButton" onclick="appendToDisplay ('*')">*</button>
+
+    </div>
+
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
