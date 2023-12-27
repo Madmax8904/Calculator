@@ -1,1 +1,1 @@
-# Calculator
+The Basic Calculator is a straightforward and user-friendly application designed for essential arithmetic operations. With a clean interface, it allows users to perform addition, subtraction, multiplication, and division effortlessly. The calculator includes basic error handling, a clear display. It's a minimalistic and accessible tool suitable for beginners and those in need of a simple, efficient calculator solution.
